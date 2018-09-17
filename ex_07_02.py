@@ -1,5 +1,5 @@
 fname = input("Enter file name: ")
-fh = open(fname)
+fh = open("./resources/" + fname + ".txt")
 numbers = []
 
 for line in fh :

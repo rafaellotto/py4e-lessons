@@ -1,4 +1,4 @@
-file = open("romeo.txt")
+file = open("./resources/romeo.txt")
 words = list()
 
 for line in file :

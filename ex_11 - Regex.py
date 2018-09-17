@@ -1,6 +1,6 @@
 import re
 
-file = open("regex_sum_135221.txt")
+file = open("./resources/regex_sum_135221.txt")
 
 numbers = list()
 
@@ -12,5 +12,5 @@ for line in file :
 
 sum = sum(numbers)
 count = len(numbers)
-	
+
 print(sum)

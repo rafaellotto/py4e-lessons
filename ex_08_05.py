@@ -1,4 +1,4 @@
-file = open("mbox-short.txt")
+file = open("./resources/mbox-short.txt")
 count = 0
 for line in file :
     if not line.startswith("From ") : continue

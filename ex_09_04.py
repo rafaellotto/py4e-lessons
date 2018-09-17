@@ -1,4 +1,4 @@
-file = open("mbox-short.txt")
+file = open("./resources/mbox-short.txt")
 
 senders = {}
 for line in file :
